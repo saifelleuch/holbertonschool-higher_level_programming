@@ -2,6 +2,6 @@
 """ defining a rectangle class """
 
 
-def Rectangle:
+class Rectangle:
     """ just an empty class """
     pass
