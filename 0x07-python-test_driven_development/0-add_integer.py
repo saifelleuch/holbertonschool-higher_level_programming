@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" this is the add_integer module with function add_integer(). """
+
+
 def add_integer(a, b=98):
     """ function to add two integer """
     if type(a) is not int or float:
