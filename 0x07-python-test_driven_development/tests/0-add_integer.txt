@@ -8,6 +8,6 @@ Checking negative input:
 	>>> add_integer(-9, 29)
 	20
 
-Checking 0 as an input:
-	>>> add_integer(0, 0)
-	0	
+Checking number with non-number:
+	>>> add_integer(3, "2")
+	TypeError: b must be an integer	
