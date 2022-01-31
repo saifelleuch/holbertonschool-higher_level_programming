@@ -1,17 +1,17 @@
 >>> say_my_name = __import__('3-say_my_name').say_my_name
 
 checking regular input:
-	>>> say_my_name(Bob, Marley)
+	>>> say_my_name("Bob", "Marley")
 	My name is Bob Marley
 
 checking not str last name input:
-	>>> say_my_name(Bob, 123)
+	>>> say_my_name("Bob", 123)
 	Traceback (most recent call last):
 	...
 	TypeError: last_name must be a string
 
 checking not str first name input:
-	>>> say_my_name(007, Marley)
+	>>> say_my_name(007, "Marley")
 	Traceback (most recent call last):
 	...
 	TypeError: first_name must be a string
