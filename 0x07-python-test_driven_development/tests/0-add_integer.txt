@@ -9,7 +9,7 @@ Checking negative input:
 	20
 
 Checking number with non-number:
-	>>> add_integer(3, hello)
+	>>> add_integer(3, "hello")
 	Traceback (most recent call last):
 	...
 	TypeError: b must be an integer	
