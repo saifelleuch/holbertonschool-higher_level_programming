@@ -7,9 +7,3 @@ Checking normal input:
 Checking negative input:
 	>>> add_integer(-9, 29)
 	20
-
-Checking number with non-number:
-	>>> add_integer(3, "hello")
-	Traceback (most recent call last):
-	...
-	TypeError: b must be an integer	
