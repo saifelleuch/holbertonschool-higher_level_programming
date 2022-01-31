@@ -4,4 +4,4 @@
 
 def lookup(obj):
     """ Lookup task """
-    return dir()
+    return dir(obj)
