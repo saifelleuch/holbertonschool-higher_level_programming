@@ -2,15 +2,20 @@
 
 checking regular input:
 	say_my_name(Bob, Marley)
-	Bob Marley
+	My name is Bob Marley
+
+checking one input:
+	say_my_name(Bob)
+	My name is Bob
+	
 
 checking not str last name input:
 	say_my_name(Bob, 123)
-	last_name must be a string
+	TypeError: last_name must be a string
 
 checking not str first name input:
 	say_my_name(007, Marley)
-	first_name must be a string
+	TypeError: first_name must be a string
 
 checking no argument:
 	say_my_name()
