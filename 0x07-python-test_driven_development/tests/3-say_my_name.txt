@@ -4,11 +4,6 @@ checking regular input:
 	>>> say_my_name(Bob, Marley)
 	My name is Bob Marley
 
-checking one input:
-	>>> say_my_name(Bob)
-	My name is Bob
-	
-
 checking not str last name input:
 	>>> say_my_name(Bob, 123)
 	Traceback (most recent call last):
