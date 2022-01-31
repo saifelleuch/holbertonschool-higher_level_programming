@@ -7,3 +7,9 @@ Checking normal input:
 Checking negative input:
 	>>> add_integer(-9, 29)
 	20
+
+Checking for str input:
+	>>> add_integer(4, "School")
+	Traceback (most recent call last):
+	...
+	TypeError: b must be an integer
