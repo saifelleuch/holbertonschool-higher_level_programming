@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+""" This a Rectangle class task """
+
+
 class Rectangle:
+    """ rectangle class """
     def __init__(self, width=0, height=0):
         self.__width = width
         self.__height = height
