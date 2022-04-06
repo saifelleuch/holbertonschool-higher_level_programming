@@ -5,6 +5,8 @@ const selectString = [
   'JavaScript is amazing'
 ];
 
-for (const i in selectString) {
+let i = 0;
+while (i < selectString.length) {
   console.log(selectString[i]);
+  i++;
 }
